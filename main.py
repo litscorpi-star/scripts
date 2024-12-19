@@ -116,6 +116,6 @@ VIDEO_HEARTBEAT = "https://api.bilibili.com/x/click-interface/web/heartbeat"
 print_log("准备起飞啦~~~")
 
 goPlay(url,bvids_bilibili_pro,24)
-delay = random.randint(120,180)
-time.sleep(delay)
+# delay = random.randint(120,180)
+# time.sleep(delay)
 goPlay(url,bvids_bilibili_all,5)
