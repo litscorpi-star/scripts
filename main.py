@@ -90,7 +90,9 @@ def goPlay(url,data_str,n):
                 
                 requests.post(url, data=data, headers=headers)
 
-                time.sleep(6)
+                t = random.randint(6,8)
+            
+                time.sleep(t)
 
                 #requests.post(VIDEO_HEARTBEAT, data=data, headers=headers)
 
